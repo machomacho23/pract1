@@ -16,6 +16,7 @@ body {
     width: 1347px;
     height: 914.5px;
     display: flex;
+    flex-direction: column;
     /* border: 3px solid red;   */
 }
 
@@ -152,4 +153,21 @@ body {
 .language-selector:hover .language-dropdown {
     display: block;
 }
+.hello-text {
+    width: 443px;
+    height: 137px;
+    margin-top: 145px;
+    margin-left: 100px;
+}
+.hellospan {
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 166.667% */
+    letter-spacing: 2.4px; 
+ }
+
+
 
