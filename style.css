@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 1440px;
+    height: 3860px;
+    background-color: #110D28;
+}
+.big-box {
+    width: 1347px;
+    height: 914.5px;
+    display: flex;
+    /* border: 3px solid red;   */
+}
+
+.header {
+    /* border: 3px solid red; */
+    margin-top: 18px;
+    width: 1240px;
+    height: 64px;
+    display: flex;
+    
+}
+.innheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.aboutcompany {
+    width: 103px;
+    height: 17px;
+    margin: 23px auto auto 438px;
+    color: #F4F6FC;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.tradingplatform {
+    width: 108px;
+    height: 17px;
+    margin: 23px auto auto 40px;
+    color: #827F8F;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+}
+.accounttype {
+    width: 95px;
+    height: 17px;  
+    margin: 23px auto auto 40px;
+    color: #827F8F;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+.contact {
+    width: 51px;
+    height: 17px;
+    margin: 23px auto auto 40px;
+    color: #827F8F;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.account-box {
+    /* box-sizing: border-box; */
+    width: 146px;
+    height: 47px; 
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    background: linear-gradient(90deg, #92B0DE -44.81%, #434D9C 100%);
+}
+.youraccount {
+    width: 86px;
+    height: 17px;
+    color: #FFF;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-weight: 400;
+   
+}
+
+ .itemeng {
+    padding-left: 40px;
+ }
+.language-selector {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Default Language Button */
+.selected-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu (default hidden) */
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #110D28;
+    color: white;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: none; /* თავდაპირველად დამალულია */
+}
+
+/* Dropdown Items */
+.language-dropdown li {
+    padding: 8px 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.029);
+}
+
+.language-dropdown li:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+/* Dropdown გაღება მხოლოდ CSS-ით */
+.language-selector:hover .language-dropdown {
+    display: block;
+}
+
