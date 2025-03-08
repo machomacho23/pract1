@@ -11,6 +11,7 @@ body {
     width: 1440px;
     height: 3860px;
     background-color: #110D28;
+    box-sizing: border-box;
 }
 .big-box {
     width: 1347px;
@@ -26,19 +27,21 @@ body {
     width: 1240px;
     height: 64px;
     display: flex;
-    
+   
 }
 .innheader {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 
 }
 .aboutcompany {
     width: 103px;
     height: 17px;
-    margin: 23px auto auto 438px;
+    /* margin: 23px auto auto 438px; */
+    margin-left: 438px;
     color: #F4F6FC;
     font-family: "SF Compact Text";
     font-size: 14px;
@@ -153,13 +156,18 @@ body {
 .language-selector:hover .language-dropdown {
     display: block;
 }
-.hello-text {
-    width: 443px;
-    height: 137px;
+.flex-box {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 3px solid red; */
     margin-top: 145px;
     margin-left: 100px;
+    
 }
 .hellospan {
+    width: 443px;
+    height: 137px;
+    /* border: 3px solid red; */
     color: #FFF;
     font-family: "Space Mono";
     font-size: 48px;
@@ -168,6 +176,14 @@ body {
     line-height: 80px; /* 166.667% */
     letter-spacing: 2.4px; 
  }
+ .litecoin {
+    padding-left: 200px;
+ }
+ .personalizedtrading {
+    padding-left: 100px;
+ }
+  
+  
 
 
 
