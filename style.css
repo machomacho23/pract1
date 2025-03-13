@@ -7,22 +7,26 @@
     
 }
 
+
 body {
     width: 1440px;
     height: 3860px;
-    background-color: #110D28;
     box-sizing: border-box;
+    background-color: #110D28;
 }
+
+
 .big-box {
+    background: #110D28; 
     width: 1347px;
     height: 914.5px;
-    display: flex;
+    position: relative;
     flex-direction: column;
-    /* border: 3px solid red;   */
+    border: 3px solid red;  
 }
 
 .header {
-    /* border: 3px solid red; */
+    border: 3px solid red;
     margin-top: 18px;
     width: 1240px;
     height: 64px;
@@ -113,7 +117,7 @@ body {
     cursor: pointer;
 }
 
-/* Default Language Button */
+
 .selected-language {
     display: flex;
     align-items: center;
@@ -177,10 +181,40 @@ body {
     letter-spacing: 2.4px; 
  }
  .litecoin {
-    padding-left: 200px;
+    
  }
  .personalizedtrading {
-    padding-left: 100px;
+    padding-left: 111px;
+ }
+ .transparent {
+    width: 379px;
+    height: 46px;
+    top: 424px;
+    left: 100px;     
+    color: #827F8F;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */ 
+    margin-left: 100px;
+ }
+.icon79 {
+    position: absolute;
+    padding-left: 696px;
+    top: 453px;
+}
+.bitcoin2 {
+   position: relative;
+   padding-left: 327px;
+   top: -285px;
+
+ }
+ .vector1 {
+    position: absolute;
+ }
+ .vector2 {
+    position: absolute;
  }
   
   
