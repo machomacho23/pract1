@@ -22,12 +22,13 @@ body {
     height: 914.5px;
     position: relative;
     flex-direction: column;
-    border: 3px solid red;  
+    /* border: 3px solid red;   */
 }
 
 .header {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin-top: 18px;
+    margin-left: 100px;
     width: 1240px;
     height: 64px;
     display: flex;
@@ -166,6 +167,7 @@ body {
     /* border: 3px solid red; */
     margin-top: 145px;
     margin-left: 100px;
+    padding-left: 100px;
     
 }
 .hellospan {
@@ -179,6 +181,24 @@ body {
     font-weight: 400;
     line-height: 80px; /* 166.667% */
     letter-spacing: 2.4px; 
+ }
+ .youraccount2 {
+    color: #FFF;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    background: linear-gradient(90deg, #92B0DE -44.81%, #434D9C 100%); 
+    position: absolute;
+    left: 194px;
+    top: 540px;
+    width: 146px;
+    height: 47px;
  }
  .litecoin {
     
@@ -197,11 +217,11 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 164.286% */ 
-    margin-left: 100px;
+    margin-left: 196px;
  }
 .icon79 {
     position: absolute;
-    padding-left: 696px;
+    padding-left: 818px;
     top: 453px;
 }
 .bitcoin2 {
@@ -216,8 +236,25 @@ body {
  .vector2 {
     position: absolute;
  }
-  
-  
+ .icon642 {
+    padding-left: 649px;
+    padding-top: 170px;
+ }
+ .icon80 {
+    position: absolute;
+    /* padding-left: 1020px; */
+    /* margin-top: -222px; */
+    top: 610px;
+    left: 1085px;
+ } 
+ .miniicon1 {
+    position: absolute;
+    left: 323px;
+    top:688px
 
-
-
+ }
+ .minigreen {
+   position: absolute;
+   top: 736px;
+   left: 488px;
+ }
