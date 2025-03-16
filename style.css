@@ -9,7 +9,7 @@
 
 
 body {
-    width: 1440px;
+    /* width: 1440px; */
     height: 3860px;
     box-sizing: border-box;
     background-color: #110D28;
@@ -257,4 +257,51 @@ body {
    position: absolute;
    top: 736px;
    left: 488px;
+ }
+
+ /* section 2 */
+ .section2 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+    width: 100%;
+    height: 899px;
+    background: #171135;
+    padding: 253px 150px 486px 847px;
+ }
+ .sect2welcome{
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 166.667% */
+    letter-spacing: 2.4px; 
+ }
+ .sect2our {
+    color: #827F8F;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */ 
+    padding-top: 60px;
+    width: 444px;
+    height: 46px;
+ }
+ .sect2youraccount {
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    width: 146px;
+    height: 47px;
+    gap: 10px;
+    background: linear-gradient(90deg, #92B0DE -44.81%, #434D9C 100%);
+    margin-top: 80px;
+    color: #FFF;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
  }
