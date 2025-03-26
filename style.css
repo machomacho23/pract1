@@ -305,3 +305,175 @@ body {
     font-weight: 400;
     line-height: normal; 
  }
+ .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+    /* height: 975px; */
+    width: 100%;
+    /* border: 2px solid yellow; */
+ }
+ 
+ .grid-item1 {
+    grid-area: 1 / 1 / 1 / 1;
+    margin: 100px 100px;
+    width: 441px;
+    height: 149px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 166.667% */
+    letter-spacing: 2.4px;  
+ }
+ .grid-item2 {
+    margin-left: 90px;
+    margin-top: 294px;
+    grid-area: 1 / 1 / 2 / 1;
+    top: 299px;
+    left: 90px;
+    width: 535px;
+    height: 746px;
+    /* background: linear-gradient(0deg, rgba(17, 13, 40, 0.00) 28.24%, #110D28 65.94%, #110D28 144.53%); */
+    mask-image: linear-gradient(0deg, rgba(17, 13, 40, 0.00) 28.24%, #110D28 65.94%, #110D28 144.53%);
+ }
+ 
+ .grid-item3 {
+   grid-area: 1 / 2 / 1 / 2;
+   margin-top: 434px;
+   margin-left: 212px;
+   width: 464px;
+   min-height: 68px;
+   flex-shrink: 0;
+   color: #FFF;
+   font-family: "Space Mono";
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 40px; /* 166.667% */
+   letter-spacing: 1.2px; 
+   background: linear-gradient(0deg, rgba(17, 13, 40, 0.00) 28.24%, #110D28 65.94%, #110D28 144.53%); 
+ }
+ .grid-item4 {
+    grid-area: 2 / 2 / 2 / 2;
+    margin-left: 212px;
+    margin-top: 217px;
+    width: 417px;
+    height: 115px;
+    color: #827F8F;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */   
+ }
+ a {
+    color: #FFF;
+
+ }
+ .grid-item5 {
+    grid-area: 3 / 2 / 3 / 2;
+    margin-left: 221px;
+    margin-top: 158px;
+    width: 146px;
+    height: 47px;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    background: linear-gradient(90deg, #92B0DE -44.81%, #434D9C 100%);  
+
+ }
+ .grid-item5 span {
+    color: #FFF;
+    font-family: "SF Compact Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+ }
+ .section4 {
+   top: 78px;
+   position: relative;
+    display: grid;
+    place-items: center;
+    width: 1440px;
+    height: 623px;
+    /* border: 2px solid gold; */
+ }
+ .svetebi {
+    position: absolute;
+    /* width: 1233px; */
+    height: 837px;
+ }
+ .wvrili {
+   position: absolute;
+   top: 95px;
+ }
+ .wvrililine {
+   position: absolute;
+   top: 188px;
+ }
+ .wertilebi {
+   display: flex;
+ }
+ .wertitem {
+   position: absolute;
+ }
+ .witem1 {
+   left: 1139px;
+   top: 166px;
+ }
+ .witem2 {
+   top: 182px;
+   left: 803px;
+ }
+ .witem3 {
+   top: 275px;
+   left: 449px;
+ }
+ .witem4 {
+   left: 185px;
+   top: 340px;
+ }
+ .textflex {
+
+   padding: 216px 238px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   
+ }
+ .textit {
+   color: #FFF;
+   text-align: center;
+   font-family: "SF Compact Text";
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 23px; /* 164.286% */ 
+ }
+ .top {
+   position: absolute;
+   left: 1139px;
+   top: 250px;
+ }
+ .easy {
+   position: absolute;
+   left: 163px;
+   top: 400px;
+ }
+ .managment {
+   position: absolute;
+   left: 763px;
+   top: 252px;
+ }
+ .global {
+   position: absolute;
+   top: 322px;
+   left: 432px;
+}
+ 
